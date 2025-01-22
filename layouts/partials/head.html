@@ -27,8 +27,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
 
     <!-- stylesheet -->
-    {{ $scss := resources.Get "scss/main.scss" }}
-    {{ $styles := $scss | css.Sass | css.PostCSS }}
+    {{ $css := resources.Get "css/main.css" }}
+    {{ $styles := $css | css.PostCSS }}
     {{ if hugo.IsProduction }}
     {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
     {{ end }}

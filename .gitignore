@@ -1,6 +1,8 @@
 .DS_store
 
 node_modules
-static
+public
 resources
+static
+
 assets/js/main.bundle.js
