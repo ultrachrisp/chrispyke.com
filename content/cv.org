@@ -11,12 +11,11 @@
 |                        | Software Engineer      |
 |------------------------+------------------------|
 
-- Required to work on many different products both customer facing as well as internal tooling.
-- Due to my adaptability and ability to get up to speed quickly, I moved between a number of teams within the Engineering department. Often the only developer working on frontend related tasks.
-- Sought after by the teams I had previously worked with. I was able to rekindle existing relationships which resulted in faster ramp up times for new initiatives or projects.
-- Provided developer as well as operations responsibilities depending on the team I was with. This included answering support questions as well as on-call duties. 
-- Successfully conceptualized & deployed a number of solutions from loose business requirements, often under tight timelines.
-- Successfully executed a number of projects from start to finish. This included: bootstrapping new micro-frontend frameworks for existing systems, decoupling internal systems from larger code bases to allow for faster development cycles as well as many new features to existing products.
+- Responsible for feature development on customer facing products as well as internal tooling. I also had operational responsibilities which included on-call shifts for the servers and support schedules for customer-support. 
+- Due to my adaptability and ability to get up to speed quickly, I moved between teams within the Engineering department. Often the only developer working on front-end related tasks.
+- Sought after by the teams I had worked with. I was able to rekindle existing relationships which resulted in faster ramp up times for new initiatives or projects.
+- Successfully conceptualized & deployed solutions from loose business requirements, often under tight timelines.
+- Successfully executed a number of projects from start to finish. This included bootstrapping new micro front-end frameworks for existing systems as well as decoupling internal systems from larger code bases to allow for faster development cycles.
 
 ** Absa (formerly Barclays Africa Group Ltd)
 |-------------------------------+----------------------------|
@@ -29,7 +28,7 @@
 - Successfully turned around several crisis portfolios & projects with a great record of delivering core requirements on time.
 - Consistently given & delivered high risk or technical briefs considered too risky for other teams or members.
 - Helped establish work flows & pipelines for different portfolios.
-- Established best practises & support for other developers & their teams.
+- Established best practices & support for other developers & their teams.
 - Contributed to a multi-disciplinary team on the practical application of the new corporate brand.
 - Introduced the bank to React & helped to integrate React into Adobe Experience Manager before there was native support.
 - Motivated for & established the bank's first virtual reality capability across Cape Town, Johannesburg & Pretoria.
@@ -116,7 +115,7 @@
 - Commended on my innovative teaching style, vibrancy of my classes & the variety of media used in my lessons.
 - Worked with various PC based learning packages with my students & helped evaluate the effectiveness of these resources.
 - Responsible for planning & presenting English classes for a full range of students from young learners to adults.
-- Developed teaching resources and presented workshops to my peers around the topics: “Film & video in the classroom” {{< dot >}}“Interactive software in an educational setting”.{{</ dot >}}
+- Developed teaching resources and presented workshops to my peers around the topics: “Film & video in the classroom” {{< dot >}}“Interactive software in an educational setting”.{{</ dot >}} 
 
 ** Aston Schools
 |--------------------------+---------------------------|
@@ -234,7 +233,7 @@ Major in Multimedia
 - Provided glimpses into what would later become the digital design process including graphic, product, interface, customer & user experience design.
 
 Major in Computer Science
-- Concerned with the theory & best practises of  computer programming & software development.
+- Concerned with the theory & best practices of  computer programming & software development.
 - Explored core concepts including data-structures, design-patterns, programming languages, real-time 3D rendering, networks & security.
 
 Major in English
@@ -246,8 +245,8 @@ Major in English
 - Substantial communication & interpersonal skills, with a sensitivity to cultures & contexts.
 - Strong leadership skills without sacrificing the ability to collaborate or follow.
 - Confident presentation skills allowing easy & natural interactions with audiences.
-- Good motivator able to establish meaningful RAPPORT within a team.
+- Good motivator able to establish meaningful interactions within a team.
 - Proven problem solving skills complimented with effective application of design thinking processes.
 - Excited by a challenge & curious by nature.
-- Self-motivated with an aptitude to rapidly upskill myself in a new technology or framework.
+- Self-motivated with an aptitude to rapidly up-skill myself in a new technology or framework.
 
