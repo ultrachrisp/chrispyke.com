@@ -6,34 +6,31 @@
 * Work Experience
 ** Bird (formerly MessageBird)
 |------------------------+------------------------|
-| January 2020 - present | Amsterdam, Netherlands |
+| Amsterdam, Netherlands | January 2020 - present |
 |------------------------+------------------------|
 |                        | Software Engineer      |
 |------------------------+------------------------|
 
-- Responsible for feature development on customer facing products as well as internal tooling. I also had operational responsibilities which included on-call shifts for the servers and support schedules for customer-support. 
-- Due to my adaptability and ability to get up to speed quickly, I moved between teams within the Engineering department. Often the only developer working on front-end related tasks.
-- Sought after by the teams I had worked with. I was able to rekindle existing relationships which resulted in faster ramp up times for new initiatives or projects.
-- Successfully conceptualized & deployed solutions from loose business requirements, often under tight timelines.
-- Successfully executed a number of projects from start to finish. This included bootstrapping new micro front-end frameworks for existing systems as well as decoupling internal systems from larger code bases to allow for faster development cycles.
+- Successfully decoupled an existing front-end from an internal-facing system. This allowed for faster & more stable application development.
+- Moved between a number of teams within the Engineering department. Often the only developer working on front-end related tasks.
+- Sought after by the teams I had worked with. Ability to rekindle relationships resulted in better communication, team dynamics & ramp up times.
+- Responsible for feature development on customer facing products as well as internal tooling. Additional responsibilities included on-call shifts for the servers as well as support schedules for customer-support agents. 
+- Successfully executed & deployed solutions from loose business requirements, often under tight timelines.
 
 ** Absa (formerly Barclays Africa Group Ltd)
-|-------------------------------+----------------------------|
-| February 2016 - December 2019 | Johannesburg, South Africa |
-|-------------------------------+----------------------------|
-|                               | Creative Technologist      |
-|-------------------------------+----------------------------|
+|----------------------------+-------------------------------|
+| Johannesburg, South Africa | February 2016 - December 2019 |
+|----------------------------+-------------------------------|
+|                            | Creative Technologist         |
+|----------------------------+-------------------------------|
 
-- Responsible for projects from concept through to deployment across Africa.
-- Successfully turned around several crisis portfolios & projects with a great record of delivering core requirements on time.
-- Consistently given & delivered high risk or technical briefs considered too risky for other teams or members.
-- Helped establish work flows & pipelines for different portfolios.
-- Established best practices & support for other developers & their teams.
-- Contributed to a multi-disciplinary team on the practical application of the new corporate brand.
-- Introduced the bank to React & helped to integrate React into Adobe Experience Manager before there was native support.
-- Motivated for & established the bank's first virtual reality capability across Cape Town, Johannesburg & Pretoria.
-- Established a relationship with the University of Pretoria to better explore virtual reality, its capabilities & different forms of user engagement.
+- Introduced the bank to & deployed its first React application. Standardized & scaled these applications across Africa using Adobe Experience Manager (AEM).
+- Motivated for and created the bank’s ﬁrst AR & VR capability across three cities. Created a AR & VR proof of concepts for diﬀerent platforms.
+- Consistently delivered high risk or technical briefs. This resulted in high exposure campaigns running smoothly & meeting targets.
+- Helped establish work flows & pipelines for different portfolios. Contributed to standardizing application development best practices in different teams.
+- Contributed to a multi-disciplinary design team on the practical application of the new corporate brand.
 - Managed three interns remotely to produce augmented reality proof of concepts.
+- Established a relationship with the University of Pretoria to better explore virtual reality, its capabilities & different forms of user engagement.
 
 ** McCann Worldgroup South Africa (Pty) Ltd
 |------------------------------+-----------------------|
