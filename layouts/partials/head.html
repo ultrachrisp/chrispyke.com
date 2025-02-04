@@ -27,12 +27,12 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
 
     <!-- stylesheet -->
-    {{ $css := resources.Get "css/main.css" }}
-    {{ $styles := $css | css.PostCSS }}
+    {{ $opts := dict "inlineImports" true }} 
+    {{ $css := resources.Get "css/main.css" | postCSS $opts }}
     {{ if hugo.IsProduction }}
-    {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
+    {{ $css = $css | minify | fingerprint | resources.PostProcess }}
     {{ end }}
-    <link href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" rel="stylesheet" />
+    <link href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" rel="stylesheet" />
     
     <!-- javascript -->
     {{ if hugo.IsProduction }}
