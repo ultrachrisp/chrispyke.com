@@ -64,20 +64,21 @@
 html { font-size: 62.5%; }
 
 body {
-  min-width: 320px;
-  max-width: var(--content-width-max);
-  margin: 0 auto;
   color: var(--grey-dark);
-
   font-size: 1.8rem;
   line-height: 2.7rem;
   font-family: 'Open Sans', sans-serif;
 
-  background-color: var(--white);
   background-attachment: fixed;
 }
 /* Leveraging Hugo's inlineImports */
 @import "svgs.css";
+
+main{
+  min-width: 320px;
+  max-width: var(--content-width-max);
+  margin: 0 auto;    
+}
 
 h1, h2, h3, h4, h5, h6 { font-weight: 300; }
 
