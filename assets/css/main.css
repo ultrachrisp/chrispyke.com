@@ -18,7 +18,7 @@
 
 
 
-@define-mixin card {
+@define-mixin card-bg {
     border-radius: 20px;
     background-color: var(--canvas);
     box-sizing: border-box;
@@ -75,7 +75,7 @@ body {
     background-attachment: fixed;
 }
 
-h1, h2, h3, h4, h5, h6 { font-weight: 300; }
+h1, h2, h3, h4, h5, h6 { font-weight: 300; margin: 2rem 0 0.5rem;}
 
 h1 {
     font-size: 3.4rem;
@@ -92,7 +92,7 @@ h4, h5, h6 {
     line-height: 3.1rem;
 }
 
-p { padding: 15px 0; }
+p { margin: 1rem 0}
 em { font-style: italic; }
 strong { font-weight: 600; }
 
@@ -105,8 +105,10 @@ a {
 
 ul, ol {
     list-style-position: initial;
+    padding-left:2rem;
+    margin: 1rem;
     li{
-        margin-left: 20px;
+        margin-left: 1rem;
         p {
             padding: 0;
         }
@@ -151,27 +153,26 @@ img {
 }
 
 /* Custom Layout for different sections */
-.grid {
-    display: grid;
+/* .grid { */
+/*     display: grid; */
 
-    grid-template-columns: 3% 94% 3%;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas:
-        ". header ."
-        ". main ."
-        ". pagination ."
-        ". footer .";
-}
+/*     grid-template-columns: 3% 94% 3%; */
+/*     grid-template-rows: auto auto auto auto; */
+/*     grid-template-areas: */
+/*         ". header ." */
+/*         ". main ." */
+/*         ". pagination ." */
+/*         ". footer ."; */
+/* } */
 
 nav, main, footer{
     min-width: 320px;
     max-width: var(--content-width-max);
     margin: 0 auto;
-
 }
 
 nav > div, footer > div {
-    @mixin card;
+    @mixin card-bg;
     display: flex;
     flex-direction: row;
     padding: 10px 0px;
@@ -201,29 +202,30 @@ footer > div {
 
 .logo { padding: 1.25rem; }
 
-.homepage, .post, .posts-summary, .cv, .page-not-found {
-    grid-area: main;
-}
+/* .homepage, .post, .posts-summary, .cv, .page-not-found { */
+/*     grid-area: main; */
+/* } */
 
 .post, .card {
-    @mixin card;
+    @mixin card-bg;
     padding-bottom: 30px;
-    
-    display: grid;
-    grid-template-columns: 4% 1fr;
-
-    p, ul, ol, table, div { grid-column: 2; }
-    h1, h2, h3, h4, h5, h6, hr, time, pre { grid-column: 1 / span 2; }
 }
 
-.card { grid-column: 2; }
+.grid {
+    display: grid;
+    grid-template-columns: 4% 1fr 4%;
+
+    p, ul, ol, table, div { grid-column: 2; }
+    h1, h2, h3, h4, h5, h6, hr, time, pre { grid-column: 2 }
+}
+
 .posts-summary .card {
     position: relative;
     h2 > a{ text-decoration: none; }
 }
 
 .post-link {
-    @mixin card;
+    @mixin card-bg;
     overflow: hidden;
 
     time { float: right; }
@@ -231,7 +233,7 @@ footer > div {
 }
 
 .post-title {
-    @mixin card;
+    @mixin card-bg;
     display: inline-block;
 
     h2 { padding: 0; }
@@ -249,7 +251,7 @@ footer > div {
 }
 
 .previous, .next {
-    @mixin card;
+    @mixin card-bg;
     
     width: 100%;
     padding: 10px 15px;
@@ -259,7 +261,7 @@ footer > div {
 }
 
 .dashboard {
-    @mixin card;
+    @mixin card-bg;
     
     padding:0;
     align-self: start;
@@ -272,7 +274,7 @@ footer > div {
     h1 { justify-self: center; }
     h2 { justify-self: start; }
     h1, h2 {
-        @mixin card;
+        @mixin card-bg;
         grid-column: 2;
     }
     
@@ -302,7 +304,7 @@ footer > div {
 div[class^='outline'] { display:contents; }
 
 .page-not-found {
-    @mixin card;
+    @mixin card-bg;
     
     text-align: center;
     padding: 100px 15px;
@@ -310,10 +312,10 @@ div[class^='outline'] { display:contents; }
     h2 { padding: 0; }
 }
 
-@media only screen and (min-width: 600) {
-    .grid {
-        grid-template-columns: 0.5fr 8fr 0.5fr;
-    }
+@media only screen and (min-width: 600px) {
+    /* .grid { */
+    /*     grid-template-columns: 0.5fr 8fr 0.5fr; */
+    /* } */
     .previous, .next {
         text-align: inherit;
         margin: 15px 0;
@@ -326,16 +328,20 @@ div[class^='outline'] { display:contents; }
     }
 }
 
-@media only screen and (min-width: 900) {
-    .grid {
-        grid-template-columns: 10px 75px auto 75px 10px;
-        grid-template-areas:
-            ". header header . ."
-            ". . main . ."
-            ". . pagination . ."
-            ". . footer footer .";
-    }
+@media only screen and (min-width: 900px) {
+    /* .grid { */
+    /*     grid-template-columns: 10px 75px auto 75px 10px; */
+    /*     grid-template-areas: */
+    /*         ". header header . ." */
+    /*         ". . main . ." */
+    /*         ". . pagination . ." */
+    /*         ". . footer footer ."; */
+    /* } */
 
+    main > div {
+        margin: 0 50px;
+    }
+    
     .post { grid-template-columns: 0.5fr 1fr 7fr 1fr 0.5fr; }
     .card { grid-template-columns: 0.5fr 0.5fr 8fr 0.5fr 0.5fr; }
     .cv {
@@ -378,7 +384,7 @@ div[class^='outline'] { display:contents; }
     }
 }
 
-@media only screen and (min-width: 1200) {
+@media only screen and (min-width: 1200px) {
     .post-list {
         display: grid;
         grid-template-columns: 1fr 8fr;
