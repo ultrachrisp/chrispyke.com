@@ -10,7 +10,7 @@
     {{ else if (hasPrefix $sec "2")}}
      {{ printf "<h%s\n" $sec | safeHTML }}
 	  {{ else if (hasPrefix $sec "3") }}
-     <div class="card">
+     <div class="card card-grid">
       {{ printf "<h%s\n" $sec | safeHTML }}
      </div>
 	  {{ end }}

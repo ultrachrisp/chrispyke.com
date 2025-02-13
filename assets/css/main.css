@@ -206,12 +206,12 @@ footer > div {
 /*     grid-area: main; */
 /* } */
 
-.grid {
+.card-grid {
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 6fr 0.5fr 0.5fr;
+    grid-template-columns: 0.5fr 0.5fr 8.5fr 0.5fr;
 
-    p, ul, ol, table, div { grid-column: 2 / span 3; }
-    h1, h2, h3, h4, h5, h6, hr, time, pre { grid-column: 2 / span 3; }
+    p, ul, ol, table, div { grid-column: 2 / span 2; }
+    h1, h2, h3, h4, h5, h6, hr, time, pre { grid-column: 2 / span 2; }
 }
 
 .post, .card {
@@ -268,8 +268,8 @@ footer > div {
 }
 
 .cv {
-    display: grid;
-    grid-template-columns: 2% 1fr 2%;
+    /* display: grid; */
+    /* grid-template-columns: 2% 1fr 2%; */
 
     h1 { justify-self: center; }
     h2 { justify-self: start; }
@@ -313,9 +313,9 @@ div[class^='outline'] { display:contents; }
 }
 
 @media only screen and (min-width: 600px) {
-    .grid {
-        p, ul, ol, table, div { grid-column: 3 / span 2; }
-        h1, h2, h3, h4, h5, h6, hr, time, pre { grid-column: 2 / span 3; }
+    .card-grid {
+        p, ul, ol, table, div { grid-column: 3 }
+        h1, h2, h3, h4, h5, h6, hr, time, pre { grid-column: 2 / span 2; }
     }
     
     .previous, .next {
@@ -332,7 +332,7 @@ div[class^='outline'] { display:contents; }
 
 @media only screen and (min-width: 900px) {
     main > div {
-        margin: 0 50px;
+        margin: 0 60px;
     }
     
     /* .post { grid-template-columns: 0.5fr 1fr 7fr 1fr 0.5fr; } */
