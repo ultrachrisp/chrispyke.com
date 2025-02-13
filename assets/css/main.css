@@ -165,7 +165,7 @@ img {
 /*         ". footer ."; */
 /* } */
 
-nav, main, footer{
+nav, main, footer {
     min-width: 320px;
     max-width: var(--content-width-max);
     margin: 0 auto;
@@ -206,17 +206,17 @@ footer > div {
 /*     grid-area: main; */
 /* } */
 
+.grid {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 6fr 0.5fr 0.5fr;
+
+    p, ul, ol, table, div { grid-column: 2 / span 3; }
+    h1, h2, h3, h4, h5, h6, hr, time, pre { grid-column: 2 / span 3; }
+}
+
 .post, .card {
     @mixin card-bg;
     padding-bottom: 30px;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 4% 1fr 4%;
-
-    p, ul, ol, table, div { grid-column: 2; }
-    h1, h2, h3, h4, h5, h6, hr, time, pre { grid-column: 2 }
 }
 
 .posts-summary .card {
@@ -313,9 +313,11 @@ div[class^='outline'] { display:contents; }
 }
 
 @media only screen and (min-width: 600px) {
-    /* .grid { */
-    /*     grid-template-columns: 0.5fr 8fr 0.5fr; */
-    /* } */
+    .grid {
+        p, ul, ol, table, div { grid-column: 3 / span 2; }
+        h1, h2, h3, h4, h5, h6, hr, time, pre { grid-column: 2 / span 3; }
+    }
+    
     .previous, .next {
         text-align: inherit;
         margin: 15px 0;
@@ -329,21 +331,12 @@ div[class^='outline'] { display:contents; }
 }
 
 @media only screen and (min-width: 900px) {
-    /* .grid { */
-    /*     grid-template-columns: 10px 75px auto 75px 10px; */
-    /*     grid-template-areas: */
-    /*         ". header header . ." */
-    /*         ". . main . ." */
-    /*         ". . pagination . ." */
-    /*         ". . footer footer ."; */
-    /* } */
-
     main > div {
         margin: 0 50px;
     }
     
-    .post { grid-template-columns: 0.5fr 1fr 7fr 1fr 0.5fr; }
-    .card { grid-template-columns: 0.5fr 0.5fr 8fr 0.5fr 0.5fr; }
+    /* .post { grid-template-columns: 0.5fr 1fr 7fr 1fr 0.5fr; } */
+    /* .card { grid-template-columns: 0.5fr 0.5fr 8fr 0.5fr 0.5fr; } */
     .cv {
         grid-template-columns: 0.5fr 1fr 8fr 1fr 0.5fr;
         h1, h2 { grid-column: 1 / span 5; }
@@ -351,10 +344,10 @@ div[class^='outline'] { display:contents; }
         h2 { margin-top: 30px; }
     }
 
-    .post, .card {
-        p, ul, ol, table, div{ grid-column: 3 / 5; }
-        h1, h2, h3, h4, h5, h6, hr, time, pre{ grid-column: 2 / span 3; }
-    }
+    /* .post, .card { */
+    /*     p, ul, ol, table, div{ grid-column: 3 / 5; } */
+    /*     h1, h2, h3, h4, h5, h6, hr, time, pre{ grid-column: 2 / span 3; } */
+    /* } */
     
     .homepage {
         display: grid;
