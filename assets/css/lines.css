@@ -4,19 +4,19 @@ hr, .line {
 }
 
 hr:before, hr:after {
-  @include circle($grey-light);
+  @mixin circle var(--grey-light);
   position: absolute;
 }
 
 .line:before, .line:after {
-  @include circle($grey-dark);
+  @mixin circle var(--grey-dark);
   position: absolute;
 }
 
 hr {
   border-width: 1px;
   border-style: solid;
-  border-color: $grey-light;
+  border-color: var(--grey-light);
   width: 99%;
 
   &:before {
@@ -46,10 +46,10 @@ hr {
     left: -5px;
   }
 
-  .subLine1 { border-bottom-color: $grey-dark; }
+  .subLine1 { border-bottom-color: var(--grey-dark); }
   .subLine2 {
     left: 2px;
-    border-bottom-color: $canvas;
+    border-bottom-color: var(--canvas);
   }
 
   span {
