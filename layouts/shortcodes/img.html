@@ -3,10 +3,10 @@
 {{ $altText := .Get "alt"}}
 {{ with $.Page.Resources.GetMatch (.Get "name") }}
 <img class="{{ $classes }}" style="{{ $style | safeCSS }}"
-     srcset="
-            {{ (.Resize "320x").RelPermalink }} 320w,
+     sizes="(max-width: 1200px) 100vw, 1200px"
+     srcset="{{ (.Resize "320x").RelPermalink }} 320w,
      {{ (.Resize "600x").RelPermalink }} 600w,
-     {{ (.Resize "1200x").RelPermalink }} 1200w,
+     {{ (.Resize "1200x").RelPermalink }} 1200w
      {{ (.Resize "1500x").RelPermalink }} 1500w"
      src="{{ (.Resize "600x").RelPermalink }}" alt="{{$altText}}"/>
 {{ else }}
