@@ -2,6 +2,8 @@
 #+TITLE: Brave New Virtual Worlds
 #+DRAFT: false
 #+TYPE: post
+#+HUGO_CATEGORIES: writing blog
+#+HUGO_TAGS: VR absa
 #+DESCRIPTION: Ideas around virtual and augmented reality
 
 {{< img name="headset.png" classes="right corners" style="width:180px" alt="Virtual reality headset" >}}
