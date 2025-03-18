@@ -28,5 +28,8 @@
     "postcss-mixins": "^11.0.3",
     "postcss-normalize": "^13.0.1",
     "reset-css": "^4.0.1"
+  },
+  "dependencies": {
+    "@ultrachrisp/spinning-svgs": "npm:@jsr/ultrachrisp__spinning-svgs@^0.1.4"
   }
 }

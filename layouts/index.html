@@ -1,11 +1,30 @@
 {{ partial "head.html" . }}
 {{ partial "navigation.html" . }}
+
+{{ $logo := resources.Get "svg/front.svg" }}
+
+      {{ with resources.Get "js/new.js" }}
+       {{ $opts := dict
+        "minify" hugo.IsProduction
+        "sourceMap" (cond hugo.IsProduction "" "external")
+        "targetPath" "js/new.js"
+       }}
+       {{ with . | js.Build $opts }}
+        {{ if hugo.IsProduction }}
+         {{ with . | fingerprint }}
+      <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+         {{ end }}
+        {{ else }}
+      <script src="{{ .RelPermalink }}"></script>
+       {{ end }}
+      {{ end }}
+     {{ end }}
+
 <section class="homepage">
   <div class="dashboard" id="dashboard">
-    {{ $logo := resources.Get "svg/front.svg" }}
-    <img src="{{ $logo.Permalink }}" alt="Logo"/>
-    {{ $script := resources.Get "js/main.bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
+    <div id="canvas">
+      <img src="{{ $logo.Permalink }}" alt="Logo" />
+    </div>
   </div>
   <div class="post-list">
     <div class="post-title">
@@ -14,7 +33,7 @@
     {{ range first 10 (where .Site.Pages ".Params.type" "post") }}
     <div class="post-link">
       <a href="{{ .Permalink }}">{{ .Title }}</a>
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
     </div>
     {{ end }}
   </div>
