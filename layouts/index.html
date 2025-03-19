@@ -1,22 +1,45 @@
 {{ partial "head.html" . }}
 {{ partial "navigation.html" . }}
-<section class="homepage">
-  <div class="dashboard" id="dashboard">
-    {{ $logo := resources.Get "svg/front.svg" }}
-    <img src="{{ $logo.Permalink }}" alt="Logo"/>
-    {{ $script := resources.Get "js/main.bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
+
+{{ $logo := resources.Get "svg/front.svg" }}
+<main>
+  <div>
+    <section class="homepage">
+      <div class="dashboard" id="dashboard">
+        <div id="canvas">
+          <img src="{{ $logo.Permalink }}" alt="Logo" />
+        </div>
+        <a class="playMore" href="{{ .Site.BaseURL }}experiment">Play on a bigger canvas</a>
+      </div>
+      <div class="post-list">
+        <div class="post-title">
+          <h2>Recent Posts</h2>
+        </div>
+        {{ range first 10 (where .Site.Pages ".Params.type" "post") }}
+        <div class="post-link">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+        </div>
+        {{ end }}
+      </div>
+    </section>
   </div>
-  <div class="post-list">
-    <div class="post-title">
-      <h2>Recent Posts</h2>
-    </div>
-    {{ range first 10 (where .Site.Pages ".Params.type" "post") }}
-    <div class="post-link">
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-    </div>
+</main>
+
+{{ with resources.Get "js/homepage.js" }}
+ {{ $opts := dict
+    "minify" hugo.IsProduction
+    "sourceMap" (cond hugo.IsProduction "" "external")
+    "targetPath" "js/homepage.js"
+  }}
+  {{ with . | js.Build $opts }}
+   {{ if hugo.IsProduction }}
+    {{ with . | fingerprint }}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
     {{ end }}
-  </div>
-</section>
+   {{ else }}
+<script src="{{ .RelPermalink }}"></script>
+   {{ end }}
+  {{ end }}
+{{ end }}
 {{ partial "footer.html" . }}

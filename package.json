@@ -5,14 +5,8 @@
   "main": "public/index.html",
   "scripts": {
     "start": "hugo server -w -D",
-    "build": "npm run clean && npm run createFolders && npm run commonReasources && hugo --minify",
-    "clean": "del static/** && del public/** !public !public/.git !public/.gitignore",
-    "createFolders": "mkdir -p ./static ./static/svg ./static/fonts",
-    "commonReasources": "npm run general && npm run fonts && npm run svg",
-    "general": "cp assets/general/* static",
-    "fonts": "cp assets/fonts/* static/fonts",
-    "svg": "cp assets/svg/* static/svg",
-    "check_git_diff": "git diff --name-only --diff-filter=U"
+    "build": "npm run clean && hugo --minify",
+    "clean": "del public/**"
   },
   "repository": {
     "type": "git",
@@ -28,5 +22,8 @@
     "postcss-mixins": "^11.0.3",
     "postcss-normalize": "^13.0.1",
     "reset-css": "^4.0.1"
+  },
+  "dependencies": {
+    "@ultrachrisp/spinning-svgs": "npm:@jsr/ultrachrisp__spinning-svgs@^0.1.4"
   }
 }
