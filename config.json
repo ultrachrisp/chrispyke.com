@@ -14,10 +14,6 @@
       "ID": "G-ELLT1F8NM9"
     }
   },
-  "taxonomies": {
-    "post": "posts",
-    "experiment": "experiments"
-  },
   "markup.goldmark.renderer": {
     "unsafe": true
   }

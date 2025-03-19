@@ -2,7 +2,9 @@
 #+TITLE: Spinning SVGs
 #+DRAFT: true
 #+TYPE: experiment
-#+filetags: svg canvas @experiment
+#+LAYOUT: spinningsvgs
 #+DESCRIPTION: Making SVGs play in the canvas
 
 As technology progresses, so the world gets smaller. Virtual reality (VR) is allowing us to explore new worlds in new ways. It also has the potential to redefine how we interact virtually. It can close vase distances as participants play in the same virtual spaces.{{<break>}}{{<break>}} Conversely, augmented reality (AR) is allowing us to layer more content on top of our own. This could change how we see our own world and everything that lives in it. Even though we have seen the potential for both of these technologies, mass adoption has still delayed the wave.
+
+

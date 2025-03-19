@@ -23,7 +23,7 @@
 |----------------------------+-------------------------------|
 
 - Introduced the bank to & deployed its first React application. Standardized & scaled these applications across Africa using Adobe Experience Manager (AEM).
-- Motivated for and created the bank’s ﬁrst AR & VR capability across three cities. Created a AR & VR proof of concepts for diﬀerent platforms.
+- Motivated for and created the bank’s first AR & VR capability across three cities. Created a AR & VR proof of concepts for different platforms.
 - Consistently delivered high risk or technical briefs. This resulted in high exposure campaigns running smoothly & meeting targets.
 - Helped establish work flows & pipelines for different portfolios. Contributed to standardizing application development best practices in different teams.
 - Contributed to a multi-disciplinary design team on the practical application of the new corporate brand.
