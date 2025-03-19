@@ -1,27 +1,23 @@
 {{ partial "head.html" . }}
 {{ partial "navigation.html" . }}
-
-<section class="post card-grid">
-  <h1 id="{{ .Title | urlize }}">{{ .Title }}</h1>
-  <time datetime="{{ .Date.Format "2006-01-02" }}">Published: {{ .Date.Format "2006-01-02" }}</time>
-  {{ if ne .Date .Lastmod }}
-  <time datetime="{{ .Lastmod.Format "2006-01-02" }}">Last update: {{ .Lastmod.Format "2006-01-02" }}</time>
+    <section class="card" style="height: 82vh">
+        <div id="canvas"></div>
+    </section>
+{{ with resources.Get "js/homepage.js" }}
+ {{ $opts := dict
+    "minify" hugo.IsProduction
+    "sourceMap" (cond hugo.IsProduction "" "external")
+    "targetPath" "js/homepage.js"
+  }}
+  {{ with . | js.Build $opts }}
+   {{ if hugo.IsProduction }}
+    {{ with . | fingerprint }}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+    {{ end }}
+   {{ else }}
+<script src="{{ .RelPermalink }}"></script>
+   {{ end }}
   {{ end }}
-  
-  {{ .Content }}
-
-  {{ partial "comments.html" }}
-  
-</section>
-
-<aside class="pagination">
-  {{ if .PrevInSection }}
-  <a class="previous" href="{{ .PrevInSection.Permalink }}">&lt;&lt; {{ .PrevInSection.Title }}</a>
-  {{ end }}
-  
-  {{ if .NextInSection }}
-  <a class="next" href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &gt;&gt;</a>
-  {{ end }}
-</aside>
+{{ end }}
 
 {{ partial "footer.html" . }}
