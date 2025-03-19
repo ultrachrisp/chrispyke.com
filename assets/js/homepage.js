@@ -1,4 +1,8 @@
 import * as SpinningSVGs from "@ultrachrisp/spinning-svgs";
 
-// run the animation
+const canvasLink = document.querySelector(".playMore");
+if (canvasLink) {
+  canvasLink.style.display = 'block';
+}
+
 SpinningSVGs();
