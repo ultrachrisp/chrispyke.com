@@ -2,25 +2,28 @@
 {{ partial "navigation.html" . }}
 
 {{ $logo := resources.Get "svg/front.svg" }}
-
-<section class="homepage">
-  <div class="dashboard" id="dashboard">
-    <div id="canvas">
-      <img src="{{ $logo.Permalink }}" alt="Logo" />
-    </div>
+<main>
+  <div>
+    <section class="homepage">
+      <div class="dashboard" id="dashboard">
+        <div id="canvas">
+          <img src="{{ $logo.Permalink }}" alt="Logo" />
+        </div>
+      </div>
+      <div class="post-list">
+        <div class="post-title">
+          <h2>Recent Posts</h2>
+        </div>
+        {{ range first 10 (where .Site.Pages ".Params.type" "post") }}
+        <div class="post-link">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+        </div>
+        {{ end }}
+      </div>
+    </section>
   </div>
-  <div class="post-list">
-    <div class="post-title">
-      <h2>Recent Posts</h2>
-    </div>
-    {{ range first 10 (where .Site.Pages ".Params.type" "post") }}
-    <div class="post-link">
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-      <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-    </div>
-    {{ end }}
-  </div>
-</section>
+</main>
 
 {{ with resources.Get "js/homepage.js" }}
  {{ $opts := dict
@@ -38,5 +41,4 @@
    {{ end }}
   {{ end }}
 {{ end }}
-      
 {{ partial "footer.html" . }}

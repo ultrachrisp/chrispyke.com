@@ -1,17 +1,16 @@
 <nav>
   <div>
-    <a class="home" href="{{ .Site.BaseURL }}">
+    <a class="home" href="{{ .Site.BaseURL }}" aria-label="Home">
       {{ readFile "static/svg/logo.svg" | safeHTML }}
     </a>
     {{ partial "lineSpacer.html" . }}
-    <a href="{{ .Site.BaseURL }}post">
+    <a href="{{ .Site.BaseURL }}post" aria-label="Blog posts">
       <span class="icon-quill"></span>
     </a>
     {{ partial "lineSpacer.html" . }}
-    <a href="{{ .Site.BaseURL }}cv">
+    <a href="{{ .Site.BaseURL }}cv"aria-label="CV">
       <span class="icon-profile"></span>
     </a>
   </div>
 </nav>
-<main>
-  <div>
+

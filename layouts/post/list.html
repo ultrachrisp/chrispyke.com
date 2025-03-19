@@ -1,19 +1,21 @@
 {{ partial "head.html" . }}
 {{ partial "navigation.html" . }}
-
-<section class="posts-summary">
-  {{ range .Pages }}
-  <div class="card card-grid">
-    <h2>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </h2>
-    <time datetime="{{ .Date }}">{{ .Date.Format "2006-01-02" }}</time>
-    <p>{{ .Summary }}</p>
-    {{ if .Truncated }}
-    <a href="{{ .RelPermalink }}" class="readMore">Read more</a>
+<main>
+  <div>
+    <section class="posts-summary">
+    {{ range .Pages }}
+      <div class="card card-grid">
+        <h2>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+        <time datetime="{{ .Date }}">{{ .Date.Format "2006-01-02" }}</time>
+        <p>{{ .Summary }}</p>
+        {{ if .Truncated }}
+        <a href="{{ .RelPermalink }}" class="readMore">Read more</a>
+        {{ end }}
+      </div>
     {{ end }}
+    </section>
   </div>
-  {{ end }}
-</section>
-
+</main>
 {{ partial "footer.html" . }}
