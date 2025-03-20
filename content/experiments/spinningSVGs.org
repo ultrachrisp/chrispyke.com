@@ -1,6 +1,6 @@
 #+DATE: 2025-03-18T15:35:01+01:00
 #+TITLE: Spinning SVGs
-#+DRAFT: true
+#+DRAFT: false
 #+TYPE: experiment
 #+LAYOUT: spinningsvgs
 #+DESCRIPTION: Making SVGs play in the canvas
