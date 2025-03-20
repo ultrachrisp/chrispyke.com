@@ -1,21 +1,22 @@
 {{ partial "head.html" . }}
 {{ partial "navigation.html" . }}
-
-<section class="cv">
-  <h1>{{ .Title }}</h1>
-  {{ $sections := split .Content "<h" }}
-   {{ range $sec := $sections }}
-    {{ if (eq $sec "") }}
-     {{ printf "%s\n" $sec | safeHTML }} 
-    {{ else if (hasPrefix $sec "2")}}
-     {{ printf "<h%s\n" $sec | safeHTML }}
-	  {{ else if (hasPrefix $sec "3") }}
-     <div class="card">
-      {{ printf "<h%s\n" $sec | safeHTML }}
-     </div>
-	  {{ end }}
-   {{ end }}
-</section>
-
+<main>
+  <div>
+    <section class="cv">
+      <h1>{{ .Title }}</h1>
+      {{ $sections := split .Content "<h" }}
+      {{ range $sec := $sections }}
+       {{ if (eq $sec "") }}
+        {{ printf "%s\n" $sec | safeHTML }} 
+       {{ else if (hasPrefix $sec "2")}}
+        {{ printf "<h%s\n" $sec | safeHTML }}
+	     {{ else if (hasPrefix $sec "3") }}
+        <div class="card card-grid">
+       {{ printf "<h%s\n" $sec | safeHTML }}
+        </div>
+	     {{ end }}
+      {{ end }}
+    </section>
+  </div>
+</main>
 {{ partial "footer.html" . }}
-
