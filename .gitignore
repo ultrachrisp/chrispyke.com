@@ -1,8 +1,6 @@
 .DS_store
+*Zone.Identifier  
 
 node_modules
 public
 resources
-static
-
-assets/js/main.bundle.js
