@@ -5,6 +5,6 @@
 #+LAYOUT: spinningsvgs
 #+DESCRIPTION: Making SVGs play in the canvas
 
-As technology progresses, so the world gets smaller. Virtual reality (VR) is allowing us to explore new worlds in new ways. It also has the potential to redefine how we interact virtually. It can close vase distances as participants play in the same virtual spaces.{{<break>}}{{<break>}} Conversely, augmented reality (AR) is allowing us to layer more content on top of our own. This could change how we see our own world and everything that lives in it. Even though we have seen the potential for both of these technologies, mass adoption has still delayed the wave.
+Playful experiment attempting to use SVGs within HTML canvas. Using the SVGs directly was too expensive, so I copied them across to a offscreen/ sprite-canvas, and then copied across the needed sprite on the render cycle.
 
-
+I attempted to keep my files more functional in style, which allowed me to learn some things along the way. The code and it's resulting effects aren't perfect, but good enough for what I was aiming for. Also, my kids loved playing with the imperfections, so I left them in.

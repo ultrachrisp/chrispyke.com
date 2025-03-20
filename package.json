@@ -5,8 +5,7 @@
   "main": "public/index.html",
   "scripts": {
     "start": "hugo server -w -D",
-    "build": "npm run clean && hugo --minify",
-    "clean": "del public/**"
+    "build": "hugo --minify --cleanDestinationDir"
   },
   "repository": {
     "type": "git",
@@ -17,13 +16,11 @@
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.6",
-    "del-cli": "^6.0.0",
     "postcss-cli": "^11.0.0",
     "postcss-mixins": "^11.0.3",
-    "postcss-normalize": "^13.0.1",
-    "reset-css": "^4.0.1"
+    "postcss-normalize": "^13.0.1"
   },
   "dependencies": {
-    "@ultrachrisp/spinning-svgs": "npm:@jsr/ultrachrisp__spinning-svgs@^0.1.4"
+    "@ultrachrisp/spinning-svgs": "npm:@jsr/ultrachrisp__spinning-svgs@^0.1.5"
   }
 }
