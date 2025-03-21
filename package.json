@@ -2,6 +2,8 @@
   "name": "chrispyke.com",
   "version": "1.2.0",
   "description": "Personal blog",
+  "author": "Chris Pyke",
+  "license": "MIT",
   "main": "public/index.html",
   "scripts": {
     "start": "hugo server -w -D",
@@ -9,10 +11,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "yes"
+    "url": "https://github.com/ultrachrisp/chrispyke.com.git"
   },
-  "author": "Chris Pyke",
-  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.6",
@@ -21,6 +21,6 @@
     "postcss-normalize": "^13.0.1"
   },
   "dependencies": {
-    "@ultrachrisp/spinning-svgs": "npm:@jsr/ultrachrisp__spinning-svgs@^0.1.5"
+    "@ultrachrisp/spinning-svgs": "npm:@jsr/ultrachrisp__spinning-svgs@^0.1.8"
   }
 }
