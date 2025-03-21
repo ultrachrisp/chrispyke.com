@@ -26,7 +26,7 @@
   </div>
 </main>
 
-{{ with resources.Get "js/homepage.js" }}
+{{ with resources.Get "ts/homepage.ts" }}
  {{ $opts := dict
     "minify" hugo.IsProduction
     "sourceMap" (cond hugo.IsProduction "" "external")
