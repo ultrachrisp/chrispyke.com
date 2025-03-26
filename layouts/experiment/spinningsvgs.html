@@ -4,7 +4,7 @@
 <section class="card" style="height: 82vh">
     <div id="canvas"></div>
 </section>
-{{ with resources.Get "js/homepage.js" }}
+{{ with resources.Get "ts/homepage.ts" }}
 {{ $opts := dict
 "minify" hugo.IsProduction
 "sourceMap" (cond hugo.IsProduction "" "external")
