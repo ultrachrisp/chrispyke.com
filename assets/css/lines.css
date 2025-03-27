@@ -23,7 +23,7 @@ hr {
     top: -5px;
     left: -5px;
   }
-  
+
   &:after {
     top: -5px;
     right: -5px;
@@ -40,13 +40,15 @@ hr {
     top: -3px;
     right: 0px;
   }
-  
+
   &:after {
     bottom: 3px;
     left: -5px;
   }
 
-  .subLine1 { border-bottom-color: var(--grey-dark); }
+  .subLine1 {
+    border-bottom-color: var(--grey-dark);
+  }
   .subLine2 {
     left: 2px;
     border-bottom-color: var(--canvas);
