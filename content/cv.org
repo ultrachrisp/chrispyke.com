@@ -11,10 +11,9 @@
 |------------------------+------------------------|
 
 - Successfully decoupled an existing front-end from an internal-facing system. This allowed for faster & more stable application development.
-- Moved between a number of teams within the Engineering department. Often the only developer working on front-end related tasks.
-- Sought after by the teams I had worked with. Ability to rekindle relationships resulted in better communication, team dynamics & ramp up times.
-- Responsible for feature development on customer facing products as well as internal tooling. Additional responsibilities included on-call shifts for the servers as well as support schedules for customer-support agents. 
-- Successfully executed & deployed solutions from loose business requirements, often under tight timelines.
+- Sought after by a few teams within the Engineering department. Ability to rekindle relationships resulted in better communication, team dynamics & ramp up times.
+- Responsible for feature development on customer facing products as well as internal tooling. Developed & deployed solutions from loose business requirements, often under tight timelines.
+- Additional responsibilities included on-call shifts for the tech-stacks as well as providing support for customer-support personnel. 
 
 ** Absa (formerly Barclays Africa Group Ltd)
 |----------------------------+-------------------------------|
@@ -22,11 +21,9 @@
 |                            | Creative Technologist         |
 |----------------------------+-------------------------------|
 
-- Introduced the bank to & deployed its first React application. Standardized & scaled these applications across Africa using Adobe Experience Manager (AEM).
-- Motivated for and created the bank’s first AR & VR capability across three cities. Created a AR & VR proof of concepts for different platforms.
-- Consistently delivered high risk or technical briefs. This resulted in high exposure campaigns running smoothly & meeting targets.
-- Helped establish work flows & pipelines for different portfolios. Contributed to standardizing application development best practices in different teams.
-- Contributed to a multi-disciplinary design team on the practical application of the new corporate brand.
+- Introduced the bank to & deployed its first React application. Standardized & scaled these applications across Africa, increasing user engagement.
+- Motivated for and created the bank’s first AR & VR capability across three cities. Created AR & VR proof of concepts.
+- Consistently delivered high risk or technical briefs.
 - Managed three interns remotely to produce augmented reality proof of concepts.
 - Established a relationship with the University of Pretoria to better explore virtual reality, its capabilities & different forms of user engagement.
 
