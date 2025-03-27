@@ -267,6 +267,11 @@ footer > div {
     }
 }
 
+/* prevent flash of backup image before JS can remove the element */
+@media (scripting: enabled) {
+  .backupImage { display: none; }
+}
+
 .playMore {
     display: none;
     padding: 10px 15px;
