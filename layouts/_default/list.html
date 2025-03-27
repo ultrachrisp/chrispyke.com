@@ -1,9 +1,8 @@
-{{ partial "head.html" . }}
-{{ partial "navigation.html" . }}
+{{ partial "head.html" . }} {{ partial "navigation.html" . }}
 <main>
   <div>
     <section class="posts-summary">
-    {{ range .Pages }}
+      {{ range .Pages }}
       <div class="card card-grid">
         <h2>
           <a href="{{ .Permalink }}">{{ .Title }}</a>
@@ -14,7 +13,7 @@
         <a href="{{ .RelPermalink }}" class="readMore">Read more</a>
         {{ end }}
       </div>
-    {{ end }}
+      {{ end }}
     </section>
   </div>
 </main>

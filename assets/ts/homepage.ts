@@ -1,8 +1,8 @@
 import { SpinningSVGs } from "@ultrachrisp/spinning-svgs";
 
-const canvasLink = document.querySelector(".playMore");
+const canvasLink: HTMLElement | null = document.querySelector(".playMore");
 if (canvasLink) {
-  canvasLink.style.display = 'block';
+  canvasLink.style.display = "block";
 }
 
 const settings = {
