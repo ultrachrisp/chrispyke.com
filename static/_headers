@@ -1,5 +1,4 @@
 /*
-  Content-Security-Policy: default-src 'self' https://*.chrispyke-com.pages.dev/* https://fonts.googleapis.com/*;
   Strict-Transport-Security: max-age=63072000
   X-Frame-Options: SAMEORIGIN
 
