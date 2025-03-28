@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: default-src 'none'; img-src 'self';
+  Content-Security-Policy: default-src 'self';
   Strict-Transport-Security: max-age=63072000
   X-Frame-Options: SAMEORIGIN
 
