@@ -7,6 +7,8 @@
 {{< img name="headset.png" classes="right corners" style="width:180px" alt="Virtual reality headset" >}}
 As technology progresses, so the world gets smaller. Virtual reality (VR) is allowing us to explore new worlds in new ways. It also has the potential to redefine how we interact virtually. It can close vase distances as participants play in the same virtual spaces.{{<break>}}{{<break>}} Conversely, augmented reality (AR) is allowing us to layer more content on top of our own. This could change how we see our own world and everything that lives in it. Even though we have seen the potential for both of these technologies, mass adoption has still delayed the wave.
 
+# more
+
 ** Setting the Stage   
    Virtual reality aims for full immersion in a virtual setting. The user is completely removed from their current setting and placed into a virtual environment. Virtual reality can also have degrees of interaction, where passive experiences only allow the user to view the virtual world.
 
