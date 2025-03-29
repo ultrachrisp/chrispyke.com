@@ -7,6 +7,8 @@
 {{< img name="night_1.jpg" classes="right corners" alt="The 'Sweet love gateway' at night with red colour palette" >}}
 Ephemeropolis was my first burn. I got involved with the AfrikaBurn website build in 2010 but I never attended. It had long been on the to-do list, so we started making plans late 2018. The core build team included [[https://www.facebook.com/igor.zeljko.77][Igor]], [[https://www.facebook.com/alastair.mehl][Alastair]], [[https://www.facebook.com/magoshashot][Margaret]], [[https://www.facebook.com/tiffanychi101][Tiffany]] and myself. Supporting the team was [[https://www.facebook.com/CyBeRmAnZA][Bjorn]] as well as the 'NoFomosapiens', who were all incredible. Oppikoppi and Meilie-pop had bigger build teams but many members couldn't attend AfrikaBurn. Contributing to AfrikaBurn seemed natural since we had built structures at festivals before.{{< break >}}The project took the form of a [[https://www.mathcurve.com/surfaces.gb/paraboloidhyperbolic/paraboloidhyperbolic.shtml][hyperbolic paraboloid]] gateway (look at my fancy vocabulary). Igor, Alastair and Margaret had built this structure before at Oppikoppi. Based off of their insights, I thought there was room to refine 'how' it was build. I also took on the responsibility of lighting the structure.
 
+# more
+
 ** The Problem Statement
    The structure itself looks simple enough. A square comprised of four square lashings at each corner. The hyperbolic paraboloid is created when you warp the 2D square into a 3D space. There is an interesting by-product of the shape: the surface or mesh bends to accommodate the frame, but the individual threads remain straight. Some of the first problems to solve were:
 
