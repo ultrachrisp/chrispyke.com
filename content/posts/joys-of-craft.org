@@ -8,6 +8,8 @@ I get great satisfaction from viewing a product I built using tools I prefer fol
 
 On any given day, I work on a number of tech stacks that get the job done but leave me thinking, "If I could have built this from scratch?" Most projects suffer from budget & time constraints and end up being good enough. But when you do have enough time, when you are able to pick your tools and set them up just right and you watch them work together... then the endorphin's flow. 
 
+# more
+
 To be clear, I am not saying that one technology is better than another (enter 'ninja vs pirates', 'spaces vs tabs'). Each developer's preferences are as unique as they are. Nor am I saying that any slice of coding Nirvana will survive code debt or entropy. Code cannot be perfect (not according to [[https://plato.stanford.edu/entries/goedel-incompleteness/][Gödel's incompleteness theorem]]) and code can always be improved or expanded. 
 
 My point is when you have full control of your environment and tools, your motivation should increase which results in a better end product.
