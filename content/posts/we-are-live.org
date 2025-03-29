@@ -7,6 +7,8 @@
 
 This blog has been a long time coming. I have wanted to post on a number of things that completing the blog became a priority. Before I jump into topics of interest, I want to list some of the technologies driving the blog.
 
+# more
+
 ** Hugo
    The more I use [[https://gohugo.io/][Hugo]], the more I love it. My first attempts at a blog used database-driven content management systems (CMS), which made sense at the time. Database driven CMS's are still relevant for large, distributed teams that need a central point to manage their content. The rise of [[https://www.staticgen.com/][static site generators]] allows us to sidestep the reliance on a back-end for simple sites. There is a static site generator suited for everyone but when Hugo started supporting [[http://orgmode.org/][org-mode]] for content was when I became hooked.
 

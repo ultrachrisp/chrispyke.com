@@ -1,14 +1,14 @@
 <nav>
   <div>
-    <a class="home" href="{{ .Site.BaseURL }}" aria-label="Home">
+    <a class="home" href="{{ absURL "" }}" aria-label="Home">
       {{ readFile "static/svg/logo.svg" | safeHTML }}
     </a>
     {{ partial "lineSpacer.html" . }}
-    <a href="{{ .Site.BaseURL }}posts" aria-label="Blog posts">
+    <a href="{{ absURL "posts" }}" aria-label="Blog posts">
       <span class="icon-quill"></span>
     </a>
     {{ partial "lineSpacer.html" . }}
-    <a href="{{ .Site.BaseURL }}cv" aria-label="CV">
+    <a href="{{ absURL "cv" }}" aria-label="CV">
       <span class="icon-profile"></span>
     </a>
   </div>
