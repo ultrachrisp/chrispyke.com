@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: default-src 'self';
+  Content-Security-Policy: default-src 'self'; font-src https://fonts.googleapis.com;
   Strict-Transport-Security: max-age=63072000
   X-Frame-Options: SAMEORIGIN
 
