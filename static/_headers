@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: default-src 'self'; img-src 'self' data:; font-src 'self' fonts.gstatic.com; style-src 'self' fonts.googleapis.com w3.org/*;
+  Content-Security-Policy: default-src 'self'; img-src 'self' www.googletagmanager.com data:; font-src 'self' fonts.gstatic.com; style-src 'self' fonts.googleapis.com w3.org/*; connect-src www.googletagmanager.com; script-src 'unsafe-inline' https://www.googletagmanager.com;
   Strict-Transport-Security: max-age=63072000
   X-Frame-Options: SAMEORIGIN
 
