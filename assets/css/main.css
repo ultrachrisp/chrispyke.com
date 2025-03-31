@@ -306,11 +306,11 @@ footer > div {
         margin: 0;
         &:before{ white-space: pre; }
         &:last-child{ padding-bottom: 0; }
-        
-        li span:before {
-            @mixin circle var(--grey-dark);
-            margin: 0 3px 1px 0;
-        }
+    }
+
+    .dot:before{
+        @mixin circle var(--grey-dark);
+        margin: 0 3px 1px 0;
     }
 }
 
