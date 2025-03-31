@@ -15,7 +15,7 @@
 - Responsible for feature development on customer facing products as well as internal tooling. Developed & deployed solutions from loose business requirements, often under tight timelines.
 - Additional responsibilities included on-call shifts for the tech-stacks as well as providing support for customer-support personnel. 
 
-** Absa (formerly Barclays Africa Group Ltd)
+** Absa (formerly Barclays Africa Group)
 |----------------------------+-------------------------------|
 | Johannesburg, South Africa | February 2016 - December 2019 |
 |                            | Creative Technologist         |
@@ -27,7 +27,7 @@
 - Managed three interns remotely to produce augmented reality proof of concepts.
 - Established a relationship with the University of Pretoria to better explore user engagement in different digital mediums.
 
-** McCann Worldgroup South Africa (Pty) Ltd
+** McCann Worldgroup South Africa
 |-----------------------+------------------------------|
 | Sandton, South Africa | January 2015 - December 2015 |
 |                       | Senior Developer             |
@@ -37,7 +37,7 @@
 - Built, deployed, maintained and provided technical direction for all digital projects, often under tight time & budget constraints.
 - Supported the project managers, community managers & designers in the execution of their tasks.
 - Conceptualised, successfully motivated, built & deployed a cross-device, cross-platform, mobile based augmented reality solution.
-- Clients include: McCann {{< dot >}}Nestle {{< dot >}}Waltons {{< dot >}}Kauai {{< dot >}}UIP {{< dot >}}Chevrolet {{< dot >}}Isuzu {{< dot >}}Zurich {{< dot >}}Econet
+- Clients include: /Nestle {{< dot >}}Waltons {{< dot >}}Kauai {{< dot >}}UIP {{< dot >}}Chevrolet {{< dot >}}Isuzu {{< dot >}}Zurich {{< dot >}}Econet/
 
 ** Freelance
 |------------------------+------------------------------|
@@ -58,7 +58,7 @@
 - Part of a dynamic team of designers & developers known for delivering award winning projects within tight timelines & budgets.
 - Called in to assist with crisis or time-critical projects, as well as interface with difficult clients.
 - Supported & up-skilled the junior developers & creatives.
-- Clients include: BMW {{< dot >}}FNB {{< dot >}}MINI {{< dot >}}RMB {{< dot >}}Samsung {{< dot >}}SA Tourism
+- Clients include: /BMW {{< dot >}}FNB {{< dot >}}MINI {{< dot >}}RMB {{< dot >}}Samsung {{< dot >}}SA Tourism/
 
 ** LXi
 |------------------------+------------------------------|
@@ -69,7 +69,7 @@
 - As the only developer in the company I successfully scoped, developed & deployed touch, multi-touch and motion capture applications.
 - Reverse engineered application development for existing & new devices.
 - Interfaced directly with clients to unpack & better understand their core requirements.
-- Clients included: Paragon Group {{< dot >}}PWC {{< dot >}}Sanofi Aventis {{< dot >}}SAP
+- Clients included: /Paragon Group {{< dot >}}PWC {{< dot >}}Sanofi Aventis {{< dot >}}SAP/
 
 ** iLogic
 |-----------------------+--------------------------|
@@ -90,7 +90,7 @@
 - Provided IELTS preparation, as well as custom classes for business & educational English.
 - Commended on my innovative teaching style, vibrancy of my classes & the variety of media used in my lessons.
 - Responsible for planning & presenting English classes for a full range of students from young learners to adults.
-- Developed teaching resources and presented workshops to my peers around the topics: “Film & video in the classroom” {{< dot >}}“Interactive software in an educational setting”. 
+- Developed teaching resources and presented workshops to my peers around the topics: /“Film & video in the classroom” {{< dot >}}“Interactive software in an educational setting”./
 
 ** Aston Schools
 |------------------+---------------------------|
@@ -100,7 +100,7 @@
 
 - Co-managed a school of 200 students in addition to providing orientation, development & continuous assessment the foreign teachers.
 - Responsible for planning & presenting English classes for a full range of students from young learners to adults.
-- Planned and delivered promotional activities for the school including: curriculum development {{< dot >}}designing advertisements {{< dot >}}delivering promotional classes (all ages) {{< dot >}}promotional field work {{< dot >}}judging English competitions {{< dot >}}creating public English corners.
+- Planned and delivered activities including: /curriculum development {{< dot >}}delivering promotional classes (all ages) {{< dot >}}promotional field work {{< dot >}}judging English competitions {{< dot >}}creating public English corners./
 
 ** Aston Schools
 |--------------+------------------------|
@@ -109,7 +109,7 @@
 |--------------+------------------------|
 
 - Responsible for planning & presenting English classes for a full range of students from young learners to adults.
-- Developed school resources including: flash-cards {{< dot >}}posters {{< dot >}}authentic materials.
+- Developed school resources including: /flash-cards {{< dot >}}posters {{< dot >}}authentic materials./
 
 * Other Initiatives
 ** [[https://www.afrikaburn.com/][AfrikaBurn]]

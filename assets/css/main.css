@@ -138,6 +138,7 @@ table {height: 1rem;}
 
 th, td {
     text-align: left;
+    vertical-align: top;
     height:inherit;
     &:first-child{ width: 50%; }
 }
@@ -355,6 +356,11 @@ div[class^='outline'] { display:contents; }
     .cv {
         .card { grid-column: 3 }
         h2 { margin-top: 30px; }
+        h3 {
+            font-size: 3.0rem;
+            line-height: 3.5rem;
+            margin-bottom: 5px;
+        }
     }
     
     .homepage {
