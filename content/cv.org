@@ -11,10 +11,9 @@
 |------------------------+------------------------|
 
 - Successfully decoupled an existing front-end from an internal-facing system. This allowed for faster & more stable application development.
-- Moved between a number of teams within the Engineering department. Often the only developer working on front-end related tasks.
-- Sought after by the teams I had worked with. Ability to rekindle relationships resulted in better communication, team dynamics & ramp up times.
-- Responsible for feature development on customer facing products as well as internal tooling. Additional responsibilities included on-call shifts for the servers as well as support schedules for customer-support agents. 
-- Successfully executed & deployed solutions from loose business requirements, often under tight timelines.
+- Sought after by some teams within the Engineering department. Ability to rekindle relationships resulted in better communication, team dynamics & ramp up times.
+- Responsible for feature development on customer facing products as well as internal tooling. Developed & deployed solutions from loose business requirements, often under tight timelines.
+- Additional responsibilities included on-call shifts for the tech-stacks as well as providing support for customer-support personnel. 
 
 ** Absa (formerly Barclays Africa Group Ltd)
 |----------------------------+-------------------------------|
@@ -22,13 +21,11 @@
 |                            | Creative Technologist         |
 |----------------------------+-------------------------------|
 
-- Introduced the bank to & deployed its first React application. Standardized & scaled these applications across Africa using Adobe Experience Manager (AEM).
-- Motivated for and created the bank’s first AR & VR capability across three cities. Created a AR & VR proof of concepts for different platforms.
-- Consistently delivered high risk or technical briefs. This resulted in high exposure campaigns running smoothly & meeting targets.
-- Helped establish work flows & pipelines for different portfolios. Contributed to standardizing application development best practices in different teams.
-- Contributed to a multi-disciplinary design team on the practical application of the new corporate brand.
+- Introduced the bank to & deployed its first React application. Standardized & scaled these applications across Africa, increasing user engagement.
+- Motivated for and created the bank’s first AR & VR capability across three cities. Created AR & VR proof of concepts.
+- Consistently delivered high risk or technical briefs.
 - Managed three interns remotely to produce augmented reality proof of concepts.
-- Established a relationship with the University of Pretoria to better explore virtual reality, its capabilities & different forms of user engagement.
+- Established a relationship with the University of Pretoria to better explore user engagement in different digital mediums.
 
 ** McCann Worldgroup South Africa (Pty) Ltd
 |-----------------------+------------------------------|
@@ -36,15 +33,11 @@
 |                       | Senior Developer             |
 |-----------------------+------------------------------|
 
-- Was the only developer in a newly created digital department.
-- Single-handedly built, deployed & maintained many of the projects I was involved with.
-- Provided technical direction & insights into numerous technologies & tech-stacks.
-- Interfaced directly with clients to unpack & define their core objectives.
-- Provided scopes of work, functional specifications as well as process pipelines for projects.
-- Successfully deployed projects within the tight time & budget constraints of the client.
+- As the only developer in a newly created digital department, I interfaced directly with clients to unpack & define their core objectives.
+- Built, deployed, maintained and provided technical direction for all digital projects, often under tight time & budget constraints.
 - Supported the project managers, community managers & designers in the execution of their tasks.
 - Conceptualised, successfully motivated, built & deployed a cross-device, cross-platform, mobile based augmented reality solution.
-- Clients include: McCann {{< dot >}}Nestle{{</ dot >}} {{< dot >}}Waltons{{</ dot >}} {{< dot >}}Kauai{{</ dot >}} {{< dot >}}UIP{{</ dot >}} {{< dot >}}Chevrolet{{</ dot >}} {{< dot >}}Isuzu{{</ dot >}} {{< dot >}}Zurich{{</ dot >}} {{< dot >}}Econet{{</ dot >}}
+- Clients include: McCann {{< dot >}}Nestle {{< dot >}}Waltons {{< dot >}}Kauai {{< dot >}}UIP {{< dot >}}Chevrolet {{< dot >}}Isuzu {{< dot >}}Zurich {{< dot >}}Econet
 
 ** Freelance
 |------------------------+------------------------------|
@@ -55,7 +48,6 @@
 - Assisted clients to narrow down & define their core objectives.
 - Provided technical direction on key technologies & realistic timelines required to achieve objectives.
 - Successfully conceptualised, scoped, developed & deployed a number of projects.
-- Utilised time to expand knowledge base, streamline development processes & investigate emerging technologies.
 
 ** Gloo (merged into Ogilvy South Africa)
 |-------------------------+---------------------------|
@@ -63,13 +55,10 @@
 |                         | Senior Developer          |
 |-------------------------+---------------------------|
 
-- Responsible for taking high-pressure individual & team briefs from concept through to deployment.
-- Successfully & consistently deployed projects within the given time-lines & budgets.
+- Part of a dynamic team of designers & developers known for delivering award winning projects within tight timelines & budgets.
 - Called in to assist with crisis or time-critical projects, as well as interface with difficult clients.
-- Able to identify process bottle-necks or potential pitfalls & possible ways to mitigate or resolve these issues.
-- Provided technical direction for technologies not in the company portfolio.
 - Supported & up-skilled the junior developers & creatives.
-- Clients include: BMW {{< dot >}}FNB{{</ dot >}} {{< dot >}}MINI{{</ dot >}} {{< dot >}}RMB{{</ dot >}} {{< dot >}}Samsung{{</ dot >}} {{< dot >}}SA Tourism{{</ dot >}}
+- Clients include: BMW {{< dot >}}FNB {{< dot >}}MINI {{< dot >}}RMB {{< dot >}}Samsung {{< dot >}}SA Tourism
 
 ** LXi
 |------------------------+------------------------------|
@@ -77,12 +66,10 @@
 |                        | Developer                    |
 |------------------------+------------------------------|
 
-- Was the only developer in the company.
+- As the only developer in the company I successfully scoped, developed & deployed touch, multi-touch and motion capture applications.
 - Reverse engineered application development for existing & new devices.
-- Successfully planned, developed & deployed touch, multi-touch and motion capture applications.
-- Researched & implemented technologies for the company.
-- Interfaced directly with clients to unpack & better understand their core requirements & objectives.
-- Clients included: Paragon Group {{< dot >}}PWC{{</ dot >}} {{< dot >}}Sanofi Aventis{{</ dot >}} {{< dot >}}SAP{{</ dot >}}
+- Interfaced directly with clients to unpack & better understand their core requirements.
+- Clients included: Paragon Group {{< dot >}}PWC {{< dot >}}Sanofi Aventis {{< dot >}}SAP
 
 ** iLogic
 |-----------------------+--------------------------|
@@ -102,9 +89,8 @@
 
 - Provided IELTS preparation, as well as custom classes for business & educational English.
 - Commended on my innovative teaching style, vibrancy of my classes & the variety of media used in my lessons.
-- Worked with various PC based learning packages with my students & helped evaluate the effectiveness of these resources.
 - Responsible for planning & presenting English classes for a full range of students from young learners to adults.
-- Developed teaching resources and presented workshops to my peers around the topics: “Film & video in the classroom” {{< dot >}}“Interactive software in an educational setting”.{{</ dot >}} 
+- Developed teaching resources and presented workshops to my peers around the topics: “Film & video in the classroom” {{< dot >}}“Interactive software in an educational setting”. 
 
 ** Aston Schools
 |------------------+---------------------------|
@@ -112,11 +98,9 @@
 |                  | Foreign Manager & Teacher |
 |------------------+---------------------------|
 
-- Co-managed a school of 200 students, 2 foreign teachers, 2 Chinese teachers & a number of Chinese staff.
-- Responsible for orientation, development & continuous assessment of the teaching skills of the foreign teachers.
-- Developed teaching schedules & provided spread sheet templates for payrolls.
+- Co-managed a school of 200 students in addition to providing orientation, development & continuous assessment the foreign teachers.
 - Responsible for planning & presenting English classes for a full range of students from young learners to adults.
-- Planned and delivered promotional activities for the school including: curriculum development {{< dot >}}designing advertisements{{</ dot >}} {{< dot >}}delivering promotional classes (all ages){{</ dot >}} {{< dot >}}promotional field work{{</ dot >}} {{< dot >}}judging English competitions{{</ dot >}} {{< dot >}}creating public English corners.{{</ dot >}}
+- Planned and delivered promotional activities for the school including: curriculum development {{< dot >}}designing advertisements {{< dot >}}delivering promotional classes (all ages) {{< dot >}}promotional field work {{< dot >}}judging English competitions {{< dot >}}creating public English corners.
 
 ** Aston Schools
 |--------------+------------------------|
@@ -125,17 +109,15 @@
 |--------------+------------------------|
 
 - Responsible for planning & presenting English classes for a full range of students from young learners to adults.
-- Developed school resources including: flash-cards {{< dot >}}posters{{</ dot >}} {{< dot >}}authentic materials.{{</ dot >}}
+- Developed school resources including: flash-cards {{< dot >}}posters {{< dot >}}authentic materials.
 
 * Other Initiatives
 ** [[https://www.afrikaburn.com/][AfrikaBurn]]
 - *2019:* Build team lead for the 'Sweet Love Gateway' art work.
-- Successfully proposed the project & motivated for grants.
+- Successfully wrote the project proposal & motivated for grants.
 - Participated in fundraisers for the project.
 - Planned, prototyped, budgeted & successfully executed the project.
-- Oversaw & coordinated the transportation of equipment to the build site.
 - Solely responsible for the lighting of the project, which was made up of 40m/ 2400 individually addressable LED lights.
-- Invited to present & share my experiences with a number of interested parties.
 
 
 - *2010:* Assisted with the development & revision of the original website theme.
@@ -147,8 +129,6 @@
 
 ** OppiKoppi
 - Successfully conceptualised, motivated for, prototyped & led/ co-led the construction of a number of structures.
-- Part of the core team which coordinated efforts between participants.
-- Responsible for sourcing & transporting the equipment.
 
 
 - *2017:* Assisted with the construction of the final tower.
@@ -176,7 +156,6 @@
 |--------+---------------------|
 
 - Provided a solid base for future machine learning projects.
-- Better understanding on how to leverage machine learning techniques for computer vision & augmented reality applications.
 
 ** [[https://www.coursera.org/account/accomplishments/specialization/LQ3SZPLYWTF7][Coursera Specialisation: Python for Everybody]]
 |--------+------------------------|
@@ -194,9 +173,7 @@
 |--------+------------------------------------------|
 
 - Exposed to new concepts & principles in programming.
-- Provided alternatives for many contemporary principles & practices.
-- Provided a deeper insight & appreciation for React.
-- Introduction to [[https://spark.apache.org/][Apache Spark]] & large scale data-processing.
+- Provided alternatives for many contemporary programming principles & practices.
 
 ** CELTA
 |----------------------+-------------------------------|
@@ -205,9 +182,7 @@
 |----------------------+-------------------------------|
 
 - Passed with a 'Grade A'.
-- Focused around effective & practical methods for English teaching.
-- Empowered me to communicate effectively with elementary English learners.
-- Deeper & richer understanding of what 'communication' really is.
+- Deeper & richer understanding of what 'communication' is and how to do it effectively.
 
 ** Bachelor of Information Science (Multimedia)
 |------------------------+------------------------------|
@@ -215,18 +190,10 @@
 |                        | University of Pretoria       |
 |------------------------+------------------------------|
 
-Major in Multimedia
-- Concerned with the practical application of different communication mediums & paradigms in a digital setting.
-- Explored gamification & visual communication via basic design, layout, colour & interaction principles.
-- Provided glimpses into what would later become the digital design process including graphic, product, interface, customer & user experience design.
-
-Major in Computer Science
-- Concerned with the theory & best practices of  computer programming & software development.
-- Explored core concepts including data-structures, design-patterns, programming languages, real-time 3D rendering, networks & security.
-
-Major in English
-- Concerned with the history, composition & use of the English language.
-- Explored notable periods of literature & their effects on modern English.
+Majoring in:
+- Computer Science
+- Multimedia
+- English
 
 * Proficiencies
 ** Soft Skills
