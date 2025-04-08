@@ -314,6 +314,25 @@ footer > div {
     }
 }
 
+.cv-grid{
+    h1, h2 {
+        @mixin card-bg;
+        padding: 10px 15px;
+        width: fit-content;
+    }
+    h1 {
+        position: relative;
+        margin: 15px auto;
+    }
+
+.card {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 8.5fr 0.5fr;
+
+    p, ul, ol, table, div { grid-column: 2 / span 2; }
+    h1, h2, h3, h4, h5, h6, hr, time, pre { grid-column: 2 / span 2; }
+}    
+}
 /* wildcard needed for generated divs... specifically for cv page */
 div[class^='outline'] { display:contents; }
 
@@ -346,6 +365,19 @@ div[class^='outline'] { display:contents; }
     .cv {
         h1 { justify-self: center; }
         .card { grid-column: 2 / span 2; }
+    }
+
+    .cv-grid{
+        max-width: 1600px;
+        margin: 0 auto;
+        
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 15px;
+
+        h1 { grid-column: span 12; }
+        h2 { grid-column: 5 / span 8; }
+        .card {grid-column: 6 / span 7;}
     }
 }
 
