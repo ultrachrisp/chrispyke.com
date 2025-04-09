@@ -22,7 +22,7 @@
     box-sizing: border-box;
     box-shadow: 2px 2px 6px 3px var(--shadow);
 
-    /* margin-top: 15px; */
+    margin-top: 15px;
 }
 
 @define-mixin link {
@@ -124,15 +124,22 @@ time {
 /* Weird FF bug for tables */
 /* table {height: 1rem;} */
 
+table{width: 100%}
+
 th, td {
     text-align: left;
+    vertical-align: top;
     height:inherit;
-    &:first-child{ width: 50%; }
+    &:first-child{ width: 65%; }
 }
 
 th {
     font-size: 2rem;
     line-height: 2.9rem;
+}
+
+th:last-child, td:last-child{
+    text-align: right;
 }
 
 .card img,
@@ -149,6 +156,10 @@ nav, main, footer {
     min-width: 320px;
     max-width: var(--content-width-max);
     margin: 0 auto;
+}
+
+main.cv-wrapper {
+    max-width: 1600px;    
 }
 
 nav > div, footer > div {
@@ -310,20 +321,26 @@ footer > div {
     }
 }
 
-.cv-grid{
-    h1, h2 {
+.cv-wrapper{
+    h1{
         @mixin card-bg;
         padding: 10px 15px;
         width: fit-content;
-    }
-    h1 {
-        position: relative;
+                position: relative;
         margin: 0 auto;
     }
+}
 
-    table{width: 100%}
-    th:last-child, td:last-child{
-        text-align: right;
+main.cv-wrapper {
+    min-width: 320px;
+    max-width: 1600px;    
+}
+
+.cv-grid{
+     h2 {
+        @mixin card-bg;
+        padding: 10px 15px;
+        width: fit-content;
     }
 
     .card {
@@ -363,33 +380,6 @@ div[class^='outline'] { display:contents; }
         h1 { justify-self: center; }
         .card { grid-column: 2 / span 2; }
     }
-
-    .cv-grid{
-        max-width: 1600px;
-        margin: 0 auto;
-        
-        display: grid;
-        grid-auto-flow: column dense;
-        grid-template-columns: repeat(6, 0.2fr 1fr);
-        grid-gap: 15px;
-
-        h1 { grid-column: span 12; }
-        /* h2 { grid-column: 5 / span 8; } */
-        /* .card {grid-column: 6 / span 7;} */
-    }
-
-    .experience {
-        grid-column: 5 / span 8;
-    }
-    .experience.card { grid-column: 6 / span 7; }
-
-    .education{
-        grid-column: 1 / span 3;
-    }
-    .education.card {
-        grid-column: 2 / span 3;
-        height: fit-content;
-    }
 }
 
 @media only screen and (min-width: 900px) {
@@ -427,6 +417,49 @@ div[class^='outline'] { display:contents; }
     h4, h5, h6 {
         font-size: 3.6rem;
         line-height: 4.2rem;
+    }
+
+
+    /* this is where I am stuck. */
+    /* don't think I have good masonary options in css */
+    .cv-grid{        
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-rows: auto;
+        grid-template-columns: 3rem 2fr 3rem 3fr;
+        /* grid-gap: 15px; */
+
+        h1 { grid-column: span 12; }
+        .card { height: fit-content;}
+    }
+
+    .experience {
+        grid-column: 3 / span 2;
+    }
+    
+    .bird, .absa {
+        grid-column: 4;
+    }
+
+    .education{
+        grid-column: 1 / span 2;
+    }
+    
+    .fem, .ml, .python, .scala {
+        grid-column: 2;
+                grid-row-end: span 3;
+    }
+
+    .python{
+        grid-row-end: span 2;
+    }
+    
+    .bird, .scala{
+        grid-row-end: span 6;
+    }
+
+     .absa{
+        grid-row-end: span 3;
     }
 }
 

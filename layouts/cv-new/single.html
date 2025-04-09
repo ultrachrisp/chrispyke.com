@@ -1,6 +1,9 @@
 {{ partial "head.html" . }}
 {{ partial "navigation.html" . }}
-    <section class="cv-grid">
-{{ .Content }}
-    </section>
+<main class="cv-wrapper">
+<h1>{{ .Title }}</h1>
+<section class="cv-grid">
+  {{ .Content }}
+</section>
+</main>
 {{ partial "footer.html" . }}
