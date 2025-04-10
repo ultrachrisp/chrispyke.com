@@ -347,6 +347,12 @@ main.cv-wrapper {
         padding: 1.5rem 2rem;
     }    
 }
+
+.newApproach{
+    display: flex;
+    flex-direction: column;
+}
+
 /* wildcard needed for generated divs... specifically for cv page */
 div[class^='outline'] { display:contents; }
 
@@ -422,45 +428,62 @@ div[class^='outline'] { display:contents; }
 
     /* this is where I am stuck. */
     /* don't think I have good masonary options in css */
-    .cv-grid{        
-        display: grid;
-        grid-auto-flow: column;
-        grid-template-rows: auto;
-        grid-template-columns: 3rem 2fr 3rem 3fr;
-        /* grid-gap: 15px; */
 
-        h1 { grid-column: span 12; }
-        .card { height: fit-content;}
+
+    /* .cv-grid{ */
+    /*     display: flex; */
+    /* } */
+
+    .newApproach{
+        display: flex;
+        flex-direction: row-reverse;
     }
 
-    .experience {
-        grid-column: 3 / span 2;
+    .leftPage{
+    }
+
+    .rightPage{
     }
     
-    .bird, .absa {
-        grid-column: 4;
-    }
+    /* .cv-grid{         */
+    /*     display: grid; */
+    /*     grid-auto-flow: column; */
+    /*     grid-template-rows: auto; */
+    /*     grid-template-columns: 3rem 2fr 3rem 3fr; */
+    /*     /\* grid-gap: 15px; *\/ */
 
-    .education{
-        grid-column: 1 / span 2;
-    }
+    /*     h1 { grid-column: span 12; } */
+    /*     .card { height: fit-content;} */
+    /* } */
+
+    /* .experience { */
+    /*     grid-column: 3 / span 2; */
+    /* } */
     
-    .fem, .ml, .python, .scala {
-        grid-column: 2;
-                grid-row-end: span 3;
-    }
+    /* .bird, .absa { */
+    /*     grid-column: 4; */
+    /* } */
 
-    .python{
-        grid-row-end: span 2;
-    }
+    /* .education{ */
+    /*     grid-column: 1 / span 2; */
+    /* } */
     
-    .bird, .scala{
-        grid-row-end: span 6;
-    }
+    /* .fem, .ml, .python, .scala { */
+    /*     grid-column: 2; */
+    /*             grid-row-end: span 3; */
+    /* } */
 
-     .absa{
-        grid-row-end: span 3;
-    }
+    /* .python{ */
+    /*     grid-row-end: span 2; */
+    /* } */
+    
+    /* .bird, .scala{ */
+    /*     grid-row-end: span 6; */
+    /* } */
+
+    /*  .absa{ */
+    /*     grid-row-end: span 3; */
+    /* } */
 }
 
 @media only screen and (min-width: 1200px) {
