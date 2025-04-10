@@ -158,7 +158,7 @@ nav, main, footer {
     margin: 0 auto;
 }
 
-main.cv-wrapper {
+main.cv {
     max-width: 1600px;    
 }
 
@@ -285,49 +285,49 @@ footer > div {
     text-align: right;
 }
 
-.cv {
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr 9fr;
+/* .cv { */
+/*     display: grid; */
+/*     grid-template-columns: 0.5fr 0.5fr 9fr; */
 
-    h1, h2 {
-        @mixin card-bg;
-        justify-self: start;
-        padding: 10px 15px;
-        grid-column: 1 / span 3;
-    }
+/*     h1, h2 { */
+/*         @mixin card-bg; */
+/*         justify-self: start; */
+/*         padding: 10px 15px; */
+/*         grid-column: 1 / span 3; */
+/*     } */
     
-    h3 { margin-bottom: 5px; }
+/*     h3 { margin-bottom: 5px; } */
 
-    .card { grid-column: 1 / span 3; }
-    table { margin-bottom: 15px; }
-    p {
-        margin: 0;
-        em {
-            display: block;
-            padding-bottom: 15px;
-        }
-    }
+/*     .card { grid-column: 1 / span 3; } */
+/*     table { margin-bottom: 15px; } */
+/*     p { */
+/*         margin: 0; */
+/*         em { */
+/*             display: block; */
+/*             padding-bottom: 15px; */
+/*         } */
+/*     } */
     
-    ul {
-        padding-bottom: 15px;
-        margin: 0;
-        &:before{ white-space: pre; }
-        &:last-child{ padding-bottom: 0; }
-    }
+/*     ul { */
+/*         padding-bottom: 15px; */
+/*         margin: 0; */
+/*         &:before{ white-space: pre; } */
+/*         &:last-child{ padding-bottom: 0; } */
+/*     } */
 
-    .dot:before{
-        @mixin circle var(--grey-dark);
-        margin: 0 3px 1px 0;
-    }
-}
+/*     .dot:before{ */
+/*         @mixin circle var(--grey-dark); */
+/*         margin: 0 3px 1px 0; */
+/*     } */
+/* } */
 
-.cv-wrapper{
+.cv{
     h1{
         @mixin card-bg;
         padding: 10px 15px;
         width: fit-content;
-                position: relative;
-        margin: 0 auto;
+        position: relative;
+        margin: 2rem auto 0;
     }
 }
 
@@ -336,21 +336,24 @@ main.cv-wrapper {
     max-width: 1600px;    
 }
 
-.cv-grid{
-     h2 {
+.cv-right, .cv-left{    
+    h2 {
         @mixin card-bg;
         padding: 10px 15px;
         width: fit-content;
+        height: fit-content;
     }
 
     .card {
         padding: 1.5rem 2rem;
+        margin-left: 3rem;
     }    
 }
 
-.newApproach{
+.cv-wrapper{
     display: flex;
     flex-direction: column;
+    gap:2rem;
 }
 
 /* wildcard needed for generated divs... specifically for cv page */
@@ -382,19 +385,19 @@ div[class^='outline'] { display:contents; }
         &:first-child { width: 60%; }
     }
 
-    .cv {
-        h1 { justify-self: center; }
-        .card { grid-column: 2 / span 2; }
-    }
+    /* .cv { */
+    /*     h1 { justify-self: center; } */
+    /*     .card { grid-column: 2 / span 2; } */
+    /* } */
 }
 
 @media only screen and (min-width: 900px) {
     main > div { margin: 0 60px; }
     
-    .cv {
-        .card { grid-column: 3 }
-        h2 { margin-top: 30px; }
-    }
+    /* .cv { */
+    /*     .card { grid-column: 3 } */
+    /*     h2 { margin-top: 30px; } */
+    /* } */
     
     .homepage {
         display: grid;
@@ -434,16 +437,8 @@ div[class^='outline'] { display:contents; }
     /*     display: flex; */
     /* } */
 
-    .newApproach{
-        display: flex;
-        flex-direction: row-reverse;
-    }
 
-    .leftPage{
-    }
 
-    .rightPage{
-    }
     
     /* .cv-grid{         */
     /*     display: grid; */
@@ -493,4 +488,10 @@ div[class^='outline'] { display:contents; }
     }
     .post-title { grid-column: 1 / span 2; }
     .post-link { grid-column: 2; }
+
+    .cv-wrapper{
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
 }
