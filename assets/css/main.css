@@ -402,5 +402,8 @@ div[class^='outline'] { display:contents; }
         display: flex;
         flex-direction: row-reverse;
 
+        .cv-left{
+            min-width: 530px;
+        }
     }
 }
