@@ -1,7 +1,7 @@
 #+DATE: 2019-06-05T10:09:06+02:00
 #+TITLE: Curriculum Vitæ
-#+DRAFT: false
-#+TYPE: cv
+#+DRAFT: true
+#+TYPE: cv-old
 
 * Work Experience
 ** Bird (formerly MessageBird)
@@ -15,7 +15,7 @@
 - Responsible for feature development on customer facing products as well as internal tooling. Developed & deployed solutions from loose business requirements, often under tight timelines.
 - Additional responsibilities included on-call shifts for the tech-stacks as well as providing support for customer-support personnel. 
 
-** Absa (formerly Barclays Africa Group Ltd)
+** Absa (formerly Barclays Africa Group)
 |----------------------------+-------------------------------|
 | Johannesburg, South Africa | February 2016 - December 2019 |
 |                            | Creative Technologist         |
@@ -27,7 +27,7 @@
 - Managed three interns remotely to produce augmented reality proof of concepts.
 - Established a relationship with the University of Pretoria to better explore user engagement in different digital mediums.
 
-** McCann Worldgroup South Africa (Pty) Ltd
+** McCann Worldgroup
 |-----------------------+------------------------------|
 | Sandton, South Africa | January 2015 - December 2015 |
 |                       | Senior Developer             |
@@ -98,7 +98,7 @@
 |                  | Foreign Manager & Teacher |
 |------------------+---------------------------|
 
-- Co-managed a school of 200 students in addition to providing orientation, development & continuous assessment the foreign teachers.
+- Co-managed a school of 200 students in addition to providing orientation, development & continuous assessment for the foreign teachers.
 - Responsible for planning & presenting English classes for a full range of students from young learners to adults.
 - Planned and delivered promotional activities for the school including: curriculum development {{< dot >}}designing advertisements {{< dot >}}delivering promotional classes (all ages) {{< dot >}}promotional field work {{< dot >}}judging English competitions {{< dot >}}creating public English corners.
 

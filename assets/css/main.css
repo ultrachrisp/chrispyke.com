@@ -107,7 +107,7 @@ ul {
     
     li:before{
         @mixin circle var(--grey-dark);
-        margin: 10px 0 0 -18px;
+        margin: 8px 0 0 -18px;
         position: absolute;
     }
     li {margin-bottom:1rem; }
@@ -293,6 +293,12 @@ footer > div {
         width: fit-content;
         position: relative;
         margin: 2rem auto 0;
+    }
+
+    .dot:before{
+        @mixin circle var(--grey-dark);
+        display:inline-block;
+        margin: 0 3px 1px 0;
     }
 }
 
