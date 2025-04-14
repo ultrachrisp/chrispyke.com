@@ -49,3 +49,11 @@ print s
 
 /My previous roles & responsibilities have required me to work with many different technologies & stacks. I do not claim to be an expert in all of them, since I was usually required to get up to speed as quickly as possible to solve specific problems. However, I do have a strong understanding of the fundamental programming principles & an eye for what makes clean, scalable code which (in my opinion) is present in most technology stacks./
 
+- *Languages:* {{< dot >}}JavaScript {{< dot >}}C++ {{< dot >}}Python {{< dot >}}HTML5 & Canvas {{< dot >}}SCSS {{< dot >}}SQL {{< dot >}}Emacs Lisp {{< dot >}}Go {{< dot >}}Scala {{< dot >}}Octave {{< dot >}}ActionScript 3 {{< dot >}}Java {{< dot >}}PHP {{< dot >}}C#
+- *Frameworks:* React {{< dot >}}Jest {{< dot >}}OpenFrameworks {{< dot >}}Vuforia {{< dot >}}ARcore {{< dot >}}OpenGL {{< dot >}}Apache Spark {{< dot >}}Angular {{< dot >}}.NET
+- *Task runners:* NPM {{< dot >}}Webpack {{< dot >}}Gulp {{< dot >}}Bash {{< dot >}}Grunt
+- *Content Management Systems:* Hugo {{< dot >}}Adobe Experience Manager (AEM) {{< dot >}}Wordpress {{< dot >}}Drupal
+- *Version control:* Git {{< dot >}}Subversion {{< dot >}}Mercurial
+- *Software:* Adobe Creative Suite {{< dot >}}Framer {{< dot >}}Unity {{< dot >}}Blender {{< dot >}}Unreal {{< dot >}}Sketch {{< dot >}}Maya {{< dot >}}MS Office
+- *Essentials:* Emacs {{< dot >}}Org mode {{< dot >}}Magit {{< dot >}}Projectile {{< dot >}}Tern
+- *Interests:* Arduino {{< dot >}}ESP32 {{< dot >}}Raspberry Pi {{< dot >}}Programmable LED strips {{< dot >}}Kinect
