@@ -7,6 +7,7 @@
   "main": "public/index.html",
   "scripts": {
     "start": "hugo server -w -D",
+    "config": "hugo server -b 'http://bos.net/'",
     "build": "hugo --minify --cleanDestinationDir"
   },
   "repository": {

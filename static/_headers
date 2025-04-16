@@ -1,0 +1,6 @@
+/*
+  Strict-Transport-Security: max-age=63072000
+  X-Frame-Options: SAMEORIGIN
+
+https://:chrispyke-com.pages.dev/*
+  X-Robots-Tag: noindex
