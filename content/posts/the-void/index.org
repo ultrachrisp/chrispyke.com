@@ -1,7 +1,7 @@
 #+DATE: 2024-08-01T16:54:36+02:00
 #+TITLE: The Void
 #+DRAFT: false
-#+TYPE: posts
+#+TYPE: post
 
 {{< img name="void.png" classes="right corners" style="width:180px" alt="Image of a void" >}}
 I woke up this morning with a hole in my very center. I felt it immediately, something in me was gone! Something core, replaced by a cold space. A dark void in the shape of a missing piece.{{<break>}}{{<break>}} It's worse than losing a tooth. I would impulsively explore the space to confirm what I already knew. Whatever was there before wasn't there anymore. I obsessively prodded the void, yearning for the familiar comfort that wasn't there. I couldn't stop myself. This core piece, this central part of me that I had taken for granted, was gone. And I had no idea where it was? In its place an unfeeling void.
