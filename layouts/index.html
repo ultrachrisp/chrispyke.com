@@ -3,9 +3,9 @@
 
 {{ $logo := resources.Get "svg/front.svg" }}
 <main>
-  <div>
-    <section class="homepage">
-      <div class="dashboard" id="dashboard">
+
+    <section >
+      <div id="dashboard">
         <div id="canvas">
           <img class="backupImage" src="{{ $logo.Permalink }}" alt="Logo" />
         </div>
@@ -23,7 +23,7 @@
         {{ end }}
       </div>
     </section>
-  </div>
+
 </main>
 
 {{ with resources.Get "ts/homepage.ts" }}
