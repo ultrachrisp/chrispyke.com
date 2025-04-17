@@ -3,27 +3,25 @@
 
 {{ $logo := resources.Get "svg/front.svg" }}
 <main>
-
-    <section >
-      <div id="dashboard">
-        <div id="canvas">
-          <img class="backupImage" src="{{ $logo.Permalink }}" alt="Logo" />
-        </div>
-        <a class="playMore" href="{{ absURL "experiments/spinningsvgs" }}">Play on a bigger canvas</a>
+  <section class="homepage">
+    <div class="dashboard card">
+      <div id="canvas">
+        <img class="backupImage" src="{{ $logo.Permalink }}" alt="Logo" />
       </div>
-      <div class="post-list">
-        <div class="post-title">
-          <h2>Recent Posts</h2>
-        </div>
-        {{ range first 10 (where .Site.Pages ".Params.type" "post") }}
-        <div class="post-link">
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-          <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-        </div>
-        {{ end }}
+      <a class="playMore" href='{{ absURL "experiments/spinningsvgs" }}'>Play on a bigger canvas</a>
+    </div>
+    <div class="post-list">
+      <div class="post-title">
+        <h2>Recent Posts</h2>
       </div>
-    </section>
-
+      {{ range first 10 (where .Site.Pages ".Params.type" "post") }}
+      <div class="post-link">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      </div>
+      {{ end }}
+    </div>
+  </section>
 </main>
 
 {{ with resources.Get "ts/homepage.ts" }}
