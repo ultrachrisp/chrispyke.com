@@ -1,8 +1,4 @@
 #+TITLE: Source files for my blog
 
-I have been drawn to static site generators for some time, especially when there isn't a need for dynamic content.
-
-I have found a combination of [[https://gohugo.io/][Hugo]], [[https://www.npmjs.com/][NPM]] & [[https://github.com][GitHub.com]] provides a fast, flexible & powerful platform for simple sites.
-
-For more details on the tools I used, please refer to [[https://chrispyke.com/post/we-are-live/][this post]].
+Static site built using [[https://gohugo.io/][Hugo]]. The other tools come and go as I have different layout needs. 
 

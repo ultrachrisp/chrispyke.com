@@ -11,6 +11,7 @@
     --shadow: #ddd;
 
     --content-width-max: 1100px;
+    --indent-amount: 60px;
     --breakpoint-medium: 600px;
     --breakpoint-large: 900px;
     --breakpoint-wide: 1200px;
@@ -124,12 +125,12 @@ time {
 /* Weird FF bug for tables */
 /* table {height: 1rem;} */
 
-table{width: 100%}
+table{ width: 100%; }
 
 th, td {
     text-align: left;
     vertical-align: top;
-    height:inherit;
+    height: inherit;
 
     &:last-child{ text-align: right; }
     &:first-child{
@@ -143,20 +144,22 @@ th {
     line-height: 2.9rem;
 }
 
-.card img,
-.post img{
-    max-width:40vw;
+.card, .post {
+    img {
+        max-width:40vw;
 
-    &.left { float:left; margin-right: 15px; }
-    &.right { float:right; margin-left: 15px; }
-    &.center { max-width:100%; margin: 0;}
-    &.corners { border-radius: 25px; }
+        &.left { float:left; margin-right: 15px; }
+        &.right { float:right; margin-left: 15px; }
+        &.center { max-width:100%; margin: 0;}
+        &.corners { border-radius: 25px; }
+    }
 }
 
 nav, main, footer {
     min-width: 320px;
     max-width: var(--content-width-max);
     margin: 0 auto;
+    display: flow-root;
 }
 
 main.cv {
@@ -219,11 +222,8 @@ footer > div {
     padding-bottom: 6rem;
 }
 
-.post { margin: 2rem 0;}
-
-.posts-summary .card {
-    position: relative;
-    margin: 2rem 0;
+.posts-summary {
+    .card { position: relative; }
     h2 > a{ text-decoration: none; }
 }
 
@@ -251,25 +251,25 @@ footer > div {
 
 .pagination {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .previous, .next {
     @mixin card-bg;
     
-    width: 100%;
+    width: fit-content;
     padding: 10px 15px;
-    display: inline-block;
-    text-align: center;
     text-decoration: none;
 }
 
 .dashboard {
-    @mixin card-bg;
+    /* @mixin card-bg; */
     
-    padding:0;
-    align-self: start;
-
+    &.card {
+        padding-bottom: 1rem;
+    }
     #canvas{
         min-height: 380px;
     }
@@ -282,7 +282,7 @@ footer > div {
 
 .playMore {
     display: none;
-    padding: 10px 15px;
+    padding-right: 15px;
     text-align: right;
 }
 
@@ -344,11 +344,13 @@ div[class^='outline'] { display:contents; }
         p, ul, ol, table, div { grid-column: 3 }
         h1, h2, h3, h4, h5, h6, hr, time, pre { grid-column: 2 / span 2; }
     }
-    
-    .previous, .next {
-        text-align: inherit;
-        margin: 15px 0;
-        width: initial;
+
+    .post-link{
+        margin-left: calc(var(--indent-amount)/2);
+    }
+
+    .pagination {
+        flex-direction: row;
     }
 
     .next { margin-left: 15px; }
@@ -358,17 +360,7 @@ div[class^='outline'] { display:contents; }
 }
 
 @media only screen and (min-width: 900px) {
-    main > div { margin: 0 60px; }
-    
-    .homepage {
-        display: grid;
-        grid-template-columns: 2fr 0.1fr 1.9fr;
-        grid-gap: 15px;
-    }
-    
-    .dashboard { grid-column: 1; }
-    
-    .post-list { grid-column: 2 / span 2; }
+    main > section{ margin-left: var(--indent-amount); }
 
     .card img, .post img { max-width:40%; }
 
@@ -388,16 +380,18 @@ div[class^='outline'] { display:contents; }
         font-size: 3.6rem;
         line-height: 4.2rem;
     }
+
+    .dashboard, .post-list {
+        width: 48%;
+        display:block;
+        float:left;
+        
+    }
+    
+    .post-list { margin-left: 15px; }
 }
 
 @media only screen and (min-width: 1200px) {
-    .post-list {
-        display: grid;
-        grid-template-columns: subgrid;
-    }
-    .post-title { grid-column: 1 / span 2; }
-    .post-link { grid-column: 2; }
-
     .cv-wrapper{
         display: flex;
         flex-direction: row-reverse;
