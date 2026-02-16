@@ -1,0 +1,14 @@
+#+DATE: 2026-02-03T09:32:54+02:00
+#+TITLE: Success Quest
+#+DRAFT: true
+#+TYPE: post
+
+This is an app that didn't get nearly the love that it deserved. It was ultimately a passion project, brought together by a small team of passionate individuals.
+
+SuccessQuest is a strange one! It's awesomeness & the love that went into it's crafting is only match with how short a lifespan it had. It was born from a crazy conversation, got buy in from stakeholders and vendors who where as crazy to go along with the idea, flat-out development at a break-neck speed, so that it could burn bright and fall to earth like the shooting start that it was. It wasn't meant to last long, but it should have lasted longer than it did.
+
+The problem statement was a tough one: bring some interactivity and user engadgement to an annual 'back to school' stationary product categlogue. We had roughly 80 pages of school & office stationary to work with, with a number of stores across South Africa. As we listed a number of possibilities, I suggested using augemented reality. The idea wasn't new. I'd seen similar projects in action (Lego, Ikea) but it was something different for South Africa. It was also the height of 'Pokemon Go' craze, so there was an appitite. I had played with Flar-manager when I was working with Flash, and I was playing with Vuforia & Unity at the time (this was before Arcore & Arkit).
+
+The core idea was that each participating vendor would get an AR marker in the catelogue and a marker at their products in store. If someone scanned all the markers, they could then be entered to win some additional prizes. Scanning the markers would turn stores as well as the cataglogue into a easter egg hunt, at least in principle.
+
+I was the only developer on the project, and I was responsible for co-ordinating efforts across the teams and bringing it together in the app. When the concepts for the vendor characters started to come through, the whole team realised that we were onto something special. Momentum grew as we got previews of the rendered scenes. The vendors also got more invested in their own characters as work continued and started making suggestions into motions. We incorporated the feedback as best as we could, but the timeline and everyone was working flat-out.
